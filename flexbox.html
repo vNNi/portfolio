@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="flexbox.css">
+    <!--//FONTES//-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--//JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<title>Teste flexbox</title>
+</head>
+<body>
+	<div class="container">
+		<header id="menu">
+			<div class="logo">
+				<a href=""><span> Vinícius K. </span></a>
+			</div class="links-menu">
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">blog</a>
+				<a href="#">portfolio</a>
+				<a href="#">contato</a>
+				<a href="#">perguntas</a>
+			</nav>
+		</header>
+	</div>
+	<section>
+			<div class="banner"></div>
+	</section>
+	<main>
+		<section>
+			<div class="projects">
+				<div class="title-projects">
+					<h3>Projetos</h3>
+					<p>Contribuições minhas em projetos OpenSource</p>
+
+				</div>
+				<div class="biofotonica">
+					<div id="titulo-bio">
+							<h3>Biofotônica</h3>
+					</div>
+					<figure>
+						<a href="https://github.com/vNNi/WebAdmin"><img src="Iconee.png" alt="icone biofotonica"></a>	
+					</figure>
+					<p> O projeto Biofotônica foi engajado na Fábrica de Apps da Uninove, onde nos foi proposto a criação de um aplicativo com WebAdmin, com o intuito de ajudar e facilitar a configuração de aparelhos à laser. Esses mesmos equipamentos exijem uma série de parâmetros específicos para serem usados, podendo variar de aparelho para aparelho, como para a tarefa que for ser usado. Pensando nessa dificuldade, montamos o aplicativo visando as especificações, dando ao usuário listas de diferentes marcas, aparelhos, operações à serem feitas e também paramêtros numéricos, onde poderiam ser modificados na parte Web pelo administrador do app. Fazendo com que no final de suas escolhas, fosse passado em sua tela as configurações ideais.  </p>
+					</div>
+					<div class="study">
+						<div id="titulo-study">
+							<h3>Study Já</h3>
+						</div>
+						<figure>
+							<a href="https://github.com/vNNi/StudyJa"><img src="studyja.png" alt="#"></a>	
+						</figure>
+					<p> O Study Já também é um projeto da Fábrica de Apps Da Uninove, com o propósito da criação de uma plataforma de publicação de resumos de livros, TCC e Artigos Científicos. A ideia é baseada em uma plataforma livre e online, onde qualquer pessoa pode postar seus materiais, porém com verificações e corretores, onde ficarão salvas para quem quiser acessar, dividas por matérias e assuntos. </p>
+					</div>
+					<div class="btn-saiba-mais">
+						<a href="http://fabricaappu9.com.br/#home">Saiba mais</a>
+					</div>
+				</div>
+		</section>
+		<section>
+			<div class="container-sobre-mim">
+				<h3>Sobre mim</h3>
+				<img src="eufb.jpg" alt="">
+				<p class="texto-sobre-mim">Olá, meu nome é Vinícius Komninakis, sou de São Paulo, estudo na Universidade Nove De Julho. Comecei a mexer com tecnologia muito cedo, sempre fiquei muito encantado com as possibilidades desse mundo e desde então nao para de me aprofundar sobre tudo que está ligado a área de TI, procuro sempre estar me atualizando sobre novas possibilidades de tecnologias, tenho o gosto de estudar, facilidade em aprender e uma dedicação com meu futuro. Todos os dias procurando aprender algo novo, se nao conseguir, o meu dia terá sido em vão. </p>
+			</div>
+		</section>
+		<section>
+			<div class="container-conhecimento">
+				<h3>Conhecimentos</h3>
+				<div class="imagens">
+					<img src="icons/csharp.jpg" alt="logo csharp">
+					<img src="icons/css3.jpg" alt="logo css3">
+					<img src="icons/git.jpg" alt="logo github">
+					<img src="icons/htmlicon.jpg" alt="logo html">
+					<img src="icons/MySQL.jpg" alt="logo MySQL">
+					<img src="icons/php.jpg" alt="logo php">
+					<img src="icons/psd.jpg" alt="logo photoshop">
+					<img src="icons/#" alt="">
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container-contatos">
+				<h3>Contato</h3>
+				<div class="formulario">
+					<form method="post" action="enviarEmail.php">
+						<label for="nome">Nome:</label>
+						<input type="name" name="nome" id="nome" required="">
+						<label for="assunto">Assunto:</label>
+						<input type="text" name="assunto" id="assunto" required="">
+						<label for="email">E-mail:</label>
+						<input type="email" name="email" id="email">
+						<label for="menssagem">Menssagem:</label>
+						<textarea id="menssagem" name="mensagem"></textarea>
+						<div class="botao">
+							<input type="submit" name="enviar" value="Enviar" id="enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container-redes-sociais">
+				<h3>Redes Socias</h3>
+				<div class="socials-links">
+					<a href="#"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook-square"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+
+			</div>
+		</section>
+	</main>
+	<footer>
+		Direitos reservados - Vinícius Komninakis, 2018.
+	</footer>
+</body>
+<script type="text/javascript" src="headerColorOnScroll.js"></script>
+</html>					
